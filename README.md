@@ -7,3 +7,5 @@ This is a PCB that detects whether or not water is touching the connector (J2). 
 ## PCB
 <img width="927" height="593" alt="Screenshot 2026-08-14 at 5 56 06 PM" src="https://github.com/user-attachments/assets/3f21aee4-b944-4eae-bff4-50eebaf3f8fe" />
 
+## Explaining the Circuits
+I will add an explanation later.
