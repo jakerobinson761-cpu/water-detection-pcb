@@ -2,11 +2,11 @@
 This is a PCB that detects whether or not water is touching the connector (J2). If water connects to the connector then the NMOS gate will have a voltage, and that voltage will turn on both a buzzer and a red LED. If the water isn't detected (i.e., there's no conductivity such that the gate has a voltage from the VCC) then the green LED turns on. This project is in progress and the ultimate goal is to connect an ESP32 to the PCB to send a notification to your phone when water is detected. 12V was used for this.
 
 ## Schematic
-<img width="785" height="653" alt="Screenshot 2026-08-14 at 5 56 16 PM" src="https://github.com/user-attachments/assets/285f1dbb-93fa-4552-b975-fd1b4e47988d" />
-
+<img width="791" height="553" alt="Screenshot 2026-08-16 at 11 27 20 AM" src="https://github.com/user-attachments/assets/2b10eef1-51b6-4a06-aee2-ef33a4f1d8f4" />
 ## PCB
-<img width="927" height="593" alt="Screenshot 2026-08-14 at 5 56 06 PM" src="https://github.com/user-attachments/assets/3f21aee4-b944-4eae-bff4-50eebaf3f8fe" />
-
+<img width="617" height="581" alt="Screenshot 2026-08-16 at 11 27 35 AM" src="https://github.com/user-attachments/assets/ed96e20d-a835-4025-a75d-05c88209d51f" />
+## 3D
+<img width="766" height="579" alt="Screenshot 2026-08-16 at 11 24 25 AM" src="https://github.com/user-attachments/assets/1703e7a1-fab8-4133-9a33-59a67fe91678" />
 ## Explaining Everything
 ### Big Idea
 Water touches J2, i.e., the connector, and this causes conductivity between pin 1 and pin 2 of J2. This conductivity allows the VCC to be drawn into the gates of both MOSFETs (P and N channel). The 10M ohm resistor exists for two reasons. Reason one:  Without a resistance the gate would "float", which is essentially whenever a MOSFET gate doesn't have a reference to GND. Because gates often act as capacitors insofar as the gate can store energy, this can cause the gate to act unpredictably (which would cause the buzzer to sometimes buzz and the red led to sometimes be on). Reason two: water has its own resistance of roughly 500k-1M ohms. So the 10M ohm resistor is put there to act as a voltage divider (which is when two resistors are in series). If the 10M resistor were much less, say 1k ohms, then this could make it so that the PCB no longer accurately detects whether or not water is present at the connector. This is because the voltage drop across a resistor of much less ohms would be far less, and if the voltage drop across the resistor were much less than the gate would have much less voltage supplied to it (in turn this could cause the gate to not turn on as MOSFETs have to have a certain threshold voltage met at the gate). 
