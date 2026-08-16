@@ -1,5 +1,5 @@
 # water-detection-pcb
-This is a PCB that detects whether or not water is touching the connector (J2). If water connects to the connector then the NMOS gate will have a voltage, and that voltage will turn on both a buzzer and a red LED. If the water isn't detected (i.e., there's no conductivity such that the gate has a voltage from the VCC) then the green LED turns on. This project is in progress and the ultimate goal is to connect an ESP32 to the PCB to send a notification to your phone when water is detected. 12V was used for this.
+Whenever water touches a connector attached to this PCB it will sound a buzzer, turn on a red LED, and send a notification to the user's phone that water touched the connector. Whenever the connector is being left alone a green LED will be turned on using backwards logic to how the red LED turns on (the red LED uses a N-channel MOSFET, but the green LED uses a P-Channel MOSFET)
 
 ## Schematic
 <img width="791" height="553" alt="Screenshot 2026-08-16 at 11 27 20 AM" src="https://github.com/user-attachments/assets/2b10eef1-51b6-4a06-aee2-ef33a4f1d8f4" />
