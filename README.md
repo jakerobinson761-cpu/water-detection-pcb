@@ -3,8 +3,10 @@ This is a PCB that detects whether or not water is touching the connector (J2). 
 
 ## Schematic
 <img width="791" height="553" alt="Screenshot 2026-08-16 at 11 27 20 AM" src="https://github.com/user-attachments/assets/2b10eef1-51b6-4a06-aee2-ef33a4f1d8f4" />
+
 ## PCB
 <img width="617" height="581" alt="Screenshot 2026-08-16 at 11 27 35 AM" src="https://github.com/user-attachments/assets/ed96e20d-a835-4025-a75d-05c88209d51f" />
+
 ## 3D
 <img width="766" height="579" alt="Screenshot 2026-08-16 at 11 24 25 AM" src="https://github.com/user-attachments/assets/1703e7a1-fab8-4133-9a33-59a67fe91678" />
 ## Explaining Everything
