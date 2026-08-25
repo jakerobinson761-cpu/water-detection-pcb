@@ -15,6 +15,13 @@ Whenever water touches a connector attached to this PCB it will sound a buzzer, 
 
 <img width="3024" height="4032" alt="IMG_3381" src="https://github.com/user-attachments/assets/9f3b13c0-b3ee-4493-954b-f058e6324096" />
 
+## Me Soldering the PCB
+
+<img width="4284" height="5712" alt="IMG_3445" src="https://github.com/user-attachments/assets/89bdc650-5830-4bdc-8e3b-25e61b731ceb" />
+
+<img width="3024" height="4032" alt="IMG_3388" src="https://github.com/user-attachments/assets/6e58ee20-4c69-462c-9d96-b01113991d51" />
+
+
 
 
 ## Explaining Everything
