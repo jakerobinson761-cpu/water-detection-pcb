@@ -6,10 +6,15 @@ Whenever water touches a wire attached to a connector attached to this PCB it wi
 
 ### Color Coding
 Red: 12V
+
 Black: GND
+
 Green: Analog Inputs
+
 Yellow: Digital I/O
+
 Blue: PWM Outputs
+
 Orange: Gate
 
 
