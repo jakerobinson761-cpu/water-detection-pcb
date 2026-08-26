@@ -2,7 +2,16 @@
 Whenever water touches a wire attached to a connector attached to this PCB it will sound a buzzer, turn on a red LED, and send a notification to the user's phone that water touched the connector. Whenever the connector is being left alone a green LED will be turned on using backwards logic to how the red LED turns on (the red LED uses a N-channel MOSFET, but the green LED uses a P-Channel MOSFET). When water touches the wire a signal will be sent to an ESP32 which will send a signal to the user's phone via wifi to alert the user that water touched the wire.
 
 ## Schematic
-<img width="791" height="553" alt="Screenshot 2026-08-16 at 11 27 20 AM" src="https://github.com/user-attachments/assets/2b10eef1-51b6-4a06-aee2-ef33a4f1d8f4" />
+<img width="841" height="538" alt="Screenshot 2026-08-25 at 11 09 10 PM" src="https://github.com/user-attachments/assets/39eed9fd-9edc-41f7-a116-85c7cb70cffb" />
+
+### Color Coding
+Red: 12V
+Black: GND
+Green: Analog Inputs
+Yellow: Digital I/O
+Blue: PWM Outputs
+Orange: Gate
+
 
 ## PCB
 <img width="617" height="581" alt="Screenshot 2026-08-16 at 11 27 35 AM" src="https://github.com/user-attachments/assets/ed96e20d-a835-4025-a75d-05c88209d51f" />
