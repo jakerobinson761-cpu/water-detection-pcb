@@ -58,6 +58,9 @@ Orange: Gate
 
 ## Parts Destroyed in the Process
 
+<img width="4284" height="5712" alt="IMG_3811" src="https://github.com/user-attachments/assets/2d30353d-613e-410f-a9cd-a8ebbd5d2daf" />
+
+Two PMOSs and One Jack DC were destroyed in the making of this PCB.
 
 
 ## Explaining Everything
