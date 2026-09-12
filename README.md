@@ -35,15 +35,24 @@ Orange: Gate
 
 ## Me Soldering the PCB
 
+### Week 1 of Building
+
 <img width="4284" height="5712" alt="IMG_3445" src="https://github.com/user-attachments/assets/89bdc650-5830-4bdc-8e3b-25e61b731ceb" />
 
 <img width="3024" height="4032" alt="IMG_3444" src="https://github.com/user-attachments/assets/55e4f32a-6b7c-4988-b023-b82879d361c3" />
 
-## What the PCB looks like now (this will be updated)
+### Week 3 of Building
 
-<img width="3024" height="4032" alt="IMG_3389" src="https://github.com/user-attachments/assets/ff44e495-de32-45cf-a11a-2ee2bca2910b" />
+<img width="4284" height="5712" alt="IMG_3545" src="https://github.com/user-attachments/assets/da1da70b-30f5-4bab-9e86-9051a62bd88a" />
 
-<img width="3024" height="4032" alt="IMG_3385" src="https://github.com/user-attachments/assets/5d2c3a85-eaad-4913-8f9b-99000de5d7dd" />
+<img width="4284" height="5712" alt="IMG_3541" src="https://github.com/user-attachments/assets/4bf4830a-b55a-4eea-94d3-6841d294d92d" />
+
+<img width="3024" height="4032" alt="IMG_3540" src="https://github.com/user-attachments/assets/c26d4249-29bd-469a-b856-f3b57d459bba" />
+
+
+## What the PCB looks (complete)
+
+
 
 
 
