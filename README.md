@@ -52,7 +52,11 @@ Orange: Gate
 
 ## What the PCB looks (complete)
 
+<img width="4284" height="5712" alt="IMG_3807" src="https://github.com/user-attachments/assets/eeb08d02-dd40-4b28-a28e-09d11ef03f3c" />
 
+<img width="4284" height="5712" alt="IMG_3810" src="https://github.com/user-attachments/assets/51c5ed5a-2ca3-476b-a464-1b0c7f11cccb" />
+
+## Parts Destroyed in the Process
 
 
 
