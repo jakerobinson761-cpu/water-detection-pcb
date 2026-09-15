@@ -46,6 +46,8 @@ Orange: Gate
 
 ### Week 3 of Building
 
+#### (I started wearing safety glasses just in case)
+
 <img width="4284" height="5712" alt="IMG_3545" src="https://github.com/user-attachments/assets/da1da70b-30f5-4bab-9e86-9051a62bd88a" />
 
 <img width="4284" height="5712" alt="IMG_3541" src="https://github.com/user-attachments/assets/4bf4830a-b55a-4eea-94d3-6841d294d92d" />
