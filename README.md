@@ -1,5 +1,5 @@
 # water-detection-pcb
-Whenever water touches a wire attached to a connector attached to this PCB it will sound a buzzer, turn on a red LED, and send a notification to the user's phone that water touched the connector. Whenever the connector is being left alone a green LED will be turned on using backwards logic to how the red LED turns on (the red LED uses a N-channel MOSFET, but the green LED uses a P-Channel MOSFET). When water touches the wire a signal will be sent to an ESP32 which will send a signal to the user's phone via wifi to alert the user that water touched the wire.
+Whenever water touches a wire attached to a connector attached to this PCB it will sound a buzzer, turn on a red LED, and send a notification to the user's phone that water touched the connector. Whenever the connector is being left alone a green LED will be turned on using backwards logic to how the red LED turns on (the red LED uses a N-channel MOSFET, but the green LED uses a P-Channel MOSFET). When water touches the wire a signal will be sent to an ESP32 which will send a signal to the user's phone via wifi to alert the user that water touched the wire (this is yet to be implemented).
 
 ## Demonstration Video (Hardware--Prior to ESP32)
 
@@ -65,6 +65,11 @@ Orange: Gate
 
 Two PMOSs and One Jack DC were destroyed in the making of this PCB.
 
+Here's another part that was destroyed; it's the 10K ohm resistor in R4 I mistakingly replaced because I didn't check the schematic prior to making hardware changes. 
+
+<img width="3024" height="4032" alt="IMG_3815" src="https://github.com/user-attachments/assets/f7a3ed3a-9db5-4c43-a3c1-e59303e77628" />
+
+The 10M Ohm resistor that was replaced was destroyed, but I forgot to take a picture of it :(
 
 ## Explaining Everything
 
@@ -118,7 +123,7 @@ Another issue is the 10M Ohm Resistor is so high that any residue (dirt, flux, e
 
 Here's a picture of me resoldering the 10K Ohm resistor to R4 instead of R1;I replaced the original pull-up resistance for the ESP32 value with what it originally was.
 
-<img width="3024" height="4032" alt="IMG_3815" src="https://github.com/user-attachments/assets/856cb56c-ac31-4ad0-a122-523f41fb44a0" />
+<img width="3024" height="4032" alt="IMG_3819" src="https://github.com/user-attachments/assets/c9049f94-9142-46cf-a0ab-48e5929c3266" />
 
 
 ## Calculating the Resistances
