@@ -127,6 +127,10 @@ Here's a picture of me resoldering the 10K Ohm resistor to R4 instead of R1;I re
 
 <img width="3024" height="4032" alt="IMG_3819" src="https://github.com/user-attachments/assets/c9049f94-9142-46cf-a0ab-48e5929c3266" />
 
+### Red LED Won't Turn on After Finally Fixing Last Issue
+
+Now that I fixed the problem of the red LED and active buzzer turning on when the probes aren't in water, the red LED won't work at all. I do not think this is because I changed the resistance of R1 to 100k Ohms, as the active buzzer is still on when the probes are in the water. I initially thought it was a soldering issue, so I resoldered the red LED. Nothing changed. Then I ran a multimeter across the red LED, and it read 11.8V (this is definitely not normal!). I believe the red LED may need to be replaced.
+
 
 ## Calculating the Resistances
 ### For the LEDs (1K Ohm Resistors)
