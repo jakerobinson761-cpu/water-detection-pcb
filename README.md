@@ -157,6 +157,10 @@ Vgs=11.21V-12V=-0.79V
 
 But -0.79V isn't enough for the PMOS to turn on. I'm first going to measure the Vgs for the PMOS; I suspect that it will almost certainly be above -2V. Then, I will measure anything that could explain why that is. The most likely explanation is a component is varying (e.g., the pull-down resistor's resistance isn't quite 100k Ohms), or that the water's resistance is higher than initially calculated, which would mean the Vg is much lower than calculated using the voltage divider equation.
 
+While I would do this first, I have another hypothesis: the wires attached to the connector have "gone bad"; in other words, the wires need to be replaced. This hypothesis, while less plausible than the first hypothesis, is much easier to resolve and would likewise explain why this issue is happening. Why does it make sense? If the probes aren't conducting properly because the wires have been worn out then the Jack DC's supplied current of 12V isn't really getting sent to the gate node as 12V; in other words Vs could be much lower than anticipated. If this is true, then using the voltage divider equation:
+
+Vm=Vs*R2/(R1+R2) --> Vs would be much lower than anticipated, therefore Vm, which equals Vg, would likewise be much lower than anticipated.
+
 
 ## Calculating the Resistances
 ### For the LEDs (1K Ohm Resistors)
