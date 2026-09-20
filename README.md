@@ -3,7 +3,8 @@ Whenever water touches a wire attached to a connector attached to this PCB it wi
 
 ## Demonstration Video (Hardware--Prior to ESP32)
 
-https://youtube.com/shorts/jh2ppAtmCCc -- this video shows the hardware part of this PCB working, but issues came up later on that had to be resolved.
+[[https://youtube.com/shorts/jh2ppAtmCCc -- this video shows the hardware part of this PCB working, but issues came up later on that had to be resolved.
+](https://youtube.com/shorts/bYx4-bdKwYc?feature=share)](https://youtube.com/shorts/bYx4-bdKwYc?feature=share)
 
 ## Schematic
 <img width="841" height="538" alt="Screenshot 2026-08-25 at 11 09 10 PM" src="https://github.com/user-attachments/assets/39eed9fd-9edc-41f7-a116-85c7cb70cffb" />
