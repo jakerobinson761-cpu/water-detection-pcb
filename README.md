@@ -126,6 +126,8 @@ R1=10,000(12/7-1)
 
 This gives R1=7,142 Ohms. 
 
+WARNING: The resistance of the water is highly variable due to the equation R=pL/A, so take this with some grain of salt. This was, however, across an average of 3 separate probe placements, so this is somewhat more accurate than just one measurement.
+
 ### Red LED and Buzzer are on even when no water is being detected -- my biggest technical hurdle with the PCB
 
 Here's a video of the issue:
