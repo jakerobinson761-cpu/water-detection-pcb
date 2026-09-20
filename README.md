@@ -58,9 +58,13 @@ Orange: Gate
 
 ## What the PCB looks (complete)
 
-<img width="4284" height="5712" alt="IMG_3807" src="https://github.com/user-attachments/assets/eeb08d02-dd40-4b28-a28e-09d11ef03f3c" />
+<img width="3024" height="4032" alt="IMG_4070" src="https://github.com/user-attachments/assets/90db2736-641d-44e1-a838-1af2a43f9748" />
 
-<img width="4284" height="5712" alt="IMG_3810" src="https://github.com/user-attachments/assets/51c5ed5a-2ca3-476b-a464-1b0c7f11cccb" />
+<img width="4284" height="5712" alt="IMG_4069" src="https://github.com/user-attachments/assets/50ee9ad0-bc89-4b50-af5a-4897cb66a6f6" />
+
+<img width="4032" height="3024" alt="IMG_4071" src="https://github.com/user-attachments/assets/eed638ae-e1c0-4e80-817b-18baa7677760" />
+
+
 
 ## Parts Destroyed in the Process
 
@@ -73,6 +77,8 @@ Here's another part that was destroyed; it's the 10K ohm resistor in R4 I mistak
 <img width="3024" height="4032" alt="IMG_3815" src="https://github.com/user-attachments/assets/f7a3ed3a-9db5-4c43-a3c1-e59303e77628" />
 
 The 10M Ohm resistor that was replaced was destroyed, but I forgot to take a picture of it :(
+
+
 
 ## Explaining Everything
 
