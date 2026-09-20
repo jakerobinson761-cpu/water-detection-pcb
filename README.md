@@ -161,6 +161,8 @@ While I would do this first, I have another hypothesis: the wires attached to th
 
 Vm=Vs*R2/(R1+R2) --> Vs would be much lower than anticipated, therefore Vm, which equals Vg, would likewise be much lower than anticipated.
 
+The issue resolved itself after changing the wires; this worked for reasons stated above.
+
 
 ## Calculating the Resistances
 ### For the LEDs (1K Ohm Resistors)
