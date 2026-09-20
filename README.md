@@ -78,6 +78,17 @@ Here's another part that was destroyed; it's the 10K ohm resistor in R4 I mistak
 
 The 10M Ohm resistor that was replaced was destroyed, but I forgot to take a picture of it :(
 
+<img width="4284" height="5712" alt="IMG_4013" src="https://github.com/user-attachments/assets/ab68570f-60fe-4e86-9ac9-14973945579d" />
+
+The 10K Ohm resistor that replaced the 10M Resistor was replaced with a 100K Ohm resistor. That destroyed 10K Ohm resistor is shown above.
+
+<img width="3024" height="4032" alt="IMG_4014" src="https://github.com/user-attachments/assets/dfc98024-7a05-44dd-b219-5fe5e3026dc3" />
+
+The red LED randomly stopped working, when a multimeter read the DC voltage from the anode to cathode of said resistor it said 11V. I replaced that LED, and this is the destroyed LED that came out of the PCB.
+
+<img width="4284" height="5712" alt="IMG_4068 (1)" src="https://github.com/user-attachments/assets/1179885e-30f7-45cf-9232-5468c29a249e" />
+
+These probes aren't unusable per se, but they certainly were destroyed. When the green LED remained on even when the water was touching the probes, the "easiest fix" hypothesis was to replace said probes. That is exactly what was done, and the issue (unexpectedly) completely resolved.
 
 
 ## Explaining Everything
