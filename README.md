@@ -149,7 +149,13 @@ Now that I fixed the problem of the red LED and active buzzer turning on when th
 
 ### The Exact Opposite Problem as the Red LED and Active Buzzer turning on
 
-Now there's the exact opposite problem of the Red LED and Active Buzzer turning on: the green LED turns on even when the probes are touching the water. I checked the datasheets for the PMOS and NMOS I'm working with: the PMOS (IRF9540) turns on when Vgs=-2 to -4V, and the NMOS (RFP30N06LE) turns on when Vgs=+1 to +2V. I suspect the green LED is remaining on when the probes are in the water because pull-down for the gate node is too strong; in other words, the opposite problem is caused by the opposite issue. That makes intuitive sense. 
+Now there's the exact opposite problem of the Red LED and Active Buzzer turning on: the green LED turns on even when the probes are touching the water. I checked the datasheets for the PMOS and NMOS I'm working with: the PMOS (IRF9540) turns on when Vgs=-2 to -4V, and the NMOS (RFP30N06LE) turns on when Vgs=+1 to +2V. I suspect the green LED is remaining on when the probes are in the water because pull-down for the gate node is too strong; in other words, the opposite problem is caused by the opposite issue. That makes intuitive sense. But prior to destroying yet another resistor for the pull-down (this will be the fourth resistor destroyed as a result of my carelessness in accidentally replacing R4 rather than R1; I should've checked the schematic prior to making any hardware changes!), I think I should make some measurements using the multimeter. I'm going to measure the Vgs for the PMOS first, because the math I did suggests that the PMOS should be off. Here's that math:
+
+Using the voltage divider equation and R1=7,126 Ohms (R1=Rwater_resistance), R2=100k Ohms (R2=Rpull_down_resistance) and Vs=12V (the source is always 12V) we get:
+Vg=12(100)/(100+7)=11.21V
+Vgs=11.21V-12V=-0.79V
+
+But -0.79V isn't enough for the PMOS to turn on. I'm first going to measure the Vgs for the PMOS; I suspect that it will almost certainly be above -2V. Then, I will measure anything that could explain why that is. The most likely explanation is a component is varying (e.g., the pull-down resistor's resistance isn't quite 100k Ohms), or that the water's resistance is higher than initially calculated, which would mean the Vg is much lower than calculated using the voltage divider equation.
 
 
 ## Calculating the Resistances
