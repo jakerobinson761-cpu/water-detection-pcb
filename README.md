@@ -7,7 +7,8 @@ Whenever water touches a wire attached to a connector attached to this PCB it wi
 ](https://youtube.com/shorts/bYx4-bdKwYc?feature=share)](https://youtube.com/shorts/bYx4-bdKwYc?feature=share)
 
 ## Schematic
-<img width="841" height="538" alt="Screenshot 2026-08-25 at 11 09 10 PM" src="https://github.com/user-attachments/assets/39eed9fd-9edc-41f7-a116-85c7cb70cffb" />
+<img width="931" height="615" alt="Screenshot 2026-09-23 at 11 18 48 PM" src="https://github.com/user-attachments/assets/64339067-2900-4333-8dd4-24769c0a5a43" />
+
 
 ### Note
 Note: the 10M Ohm resistor has since been changed to 10K Ohms, and I plan on changing it to 100K Ohms to solve issues regarding that specific pull-down resistor being too weak.
