@@ -201,3 +201,7 @@ This resistor's value easily could've been a different value (e.g., 4.7k Ohms). 
 I used a multimeter, put it in continuity mode, and verified the continuity between the Jack DC's GND and the GND in the j3 Connector. The multimeter beeped, so there is continuity. I then checked continuity between the drain of NMOS 2 and pin 2 of the J3 connector; again, it beeped. So the J3 doesn't need to be resoldered. Then I checked for continuity between pin 3 of NMOS 2 and GND of J3 (i.e., pin 1); again, it beeped. Finally, I checked for continuity between the NMOS gate pin (pin 1 of that NMOS) and J2 pin 2, which is connected to the gate node.
 
 What is continuity and why did I do this? Continuity means there's a low resistance path between two points. I did this because I didn't want to resolder NMOS 2 or J3, and these continuity checks verify I don't have to. You ONLY have to resolder the board if some points lack continuity, but these points DON'T lack continuity, so the board doesn't have to be resoldered.
+
+## Coding
+
+I am currently coding the ESP32 in C using ESP-IDF, and I will add the .c file alongside extensive commentary in said .c file once I have finished. 
